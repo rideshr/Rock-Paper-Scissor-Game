@@ -1,31 +1,4 @@
 var rps = ["rock", "paper", "scissor"];
-// function human() {
-//   var randomNumberHuman = Math.floor(Math.random() * 3);
-//   var randomChosenThing = rps[randomNumberHuman];
-//   if(randomChosenThing === "rock") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='rock' src='https://cnet2.cbsistatic.com/img/_Cm_WNDACY5RSqPVhHD2UpumanA=/1092x0/2018/07/18/0424e1ef-038d-4e90-9a62-f42b108b144d/jumanji-dom-df-05153-r.jpg'/>");
-//   }
-//   else if(randomChosenThing === "scissor") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='paper' src='https://thumbs.dreamstime.com/b/funny-happy-cute-smiling-toilet-paper-vector-flat-cartoon-character-illustration-icon-isolated-blue-background-kawaii-style-145277824.jpg'/>");
-//   }
-//   else if(randomChosenThing === "paper") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='scissor' src='https://c8.alamy.com/comp/X6X4BJ/scissors-cigarettes-X6X4BJ.jpg'/>");
-//   }
-// }
-//
-// function Computer() {
-//   var randomNumberComputer = Math.floor(Math.random() * 3);
-//   var randomChosenThing = rps[randomNumberHuman];
-//   if(randomChosenThing === "rock") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='rock' src='https://cnet2.cbsistatic.com/img/_Cm_WNDACY5RSqPVhHD2UpumanA=/1092x0/2018/07/18/0424e1ef-038d-4e90-9a62-f42b108b144d/jumanji-dom-df-05153-r.jpg'/>");
-//   }
-//   else if(randomChosenThing === "scissor") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='paper' src='https://thumbs.dreamstime.com/b/funny-happy-cute-smiling-toilet-paper-vector-flat-cartoon-character-illustration-icon-isolated-blue-background-kawaii-style-145277824.jpg'/>");
-//   }
-//   else if(randomChosenThing === "paper") {
-//       document.getElementById(randomChosenThing).innerHTML("<img id='scissor' src='https://c8.alamy.com/comp/X6X4BJ/scissors-cigarettes-X6X4BJ.jpg'/>");
-//   }
-// }
 
 function computer_show_image() {
   var randomNumberComputer = Math.floor(Math.random() * 3);
