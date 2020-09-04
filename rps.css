@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  margin-left: 70px;
+  margin-top: 50px;
+  border-radius: 100%;
+
+}
+img:hover{
+  border: 5px solid black;
+}
+
+.large {
+  font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+}
